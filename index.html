@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="shortcut icon" href="assets/logo.ico"/>
+  <title>SoulFrost</title>
+</head>
+<style>
+  html {  -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility; 
+  }
+  ::-webkit-scrollbar {
+      width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 50px black; 
+    }
+    ::-webkit-scrollbar-thumb {
+    background : black; 
+    }
+    ::-webkit-scrollbar-thumb:hover {
+    background: grey; 
+    }
+</style>
+<body>
+  <section id = "head" class = "hero is-fullheight fill" style = "background-image: url(https://wallpapershome.com/images/pages/pic_h/3942.jpg); background-size: cover;transition-duration: 750ms;">
+    <div class = "hero-head mt-5">
+      <header class = "navbar">
+        <div class = "container">
+          <div class = "navbar-brand">
+            <div class = "navbar-item has-text-centered">
+              <a href = "https://parthpradhan.github.io/" class = "is-size-3 has-text-white">SoulFrost</a>
+            </div>
+            <span class = "navbar-burger burger" id = "burger">
+              <span></span><span></span><span></span>
+            </span>
+          </div>
+          <div id = "navbar" class = "navbar-menu" id = "nav-links">
+            <div class = "navbar-end">
+              <a class = "navbar-item has-text-white">
+                <u>Home</u>
+              </a>
+              <a class = "navbar-item has-text-white">
+                About
+              </a>
+              <a class = "navbar-item has-text-white">
+                Contact
+              </a>
+              <a href = "https://www.instagram.com/thesoulfrost/" class = "navbar-item">
+                <i class = "fa fa-instagram has-text-white" aria-hidden = "true"></i>
+              </a>
+              <a href = "https://github.com/parthpradhan" class = "navbar-item">
+                <i class = "fa fa-github has-text-white" aria-hidden = "true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div> 
+    <div class = "hero-body">
+      <div class = "container has-text-centered vcentered">
+        <div class = "columns has-text-centered ml-6 mr-6" id="topics">
+          <div class = "column">
+            <a onmouseout = "NormalBG()" onmouseover = "ChangeBG(1)" href = "https://parthpradhan.github.io/index2.html" class="is-size-1 has-text-white">Projects</a>
+          </div>
+          <div class = "column">
+            <a href = "creative.html" onmouseout = "NormalBG()" onmouseover = "ChangeBG(2)" class = "is-size-1 has-text-white">Creative</a>
+          </div>
+          <div class = "column">
+            <a href = "gallery.html" onmouseout = "NormalBG()" onmouseover = "ChangeBG(3)" class = "is-size-1 has-text-white">Gallery</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src = "index.js"></script>
+</body>
+</html>
